@@ -38,7 +38,6 @@ Details:
 - **AICLI_BASE_URL** — can be left as is, defaults to `https://api.iamhc.cn/v1`.
 - **AICLI_MODEL** — the default model used when chat starts. Can be changed anytime with `/model` inside the chat. Example available models: `DeepSeek-V4-Pro`, `glm-5.2`, `Kimi-K2.6`, `MiniMax-M3`, `Qwen3-Coder-Next-FP8`, and more (see the full list by typing `/model` while chatting).
 
-> ⚠️ Don't commit your `.env` file to GitHub — make sure it's in `.gitignore` so your API key doesn't leak.
 
 ## 🚀 Running
 
