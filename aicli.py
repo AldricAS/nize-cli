@@ -11,7 +11,7 @@ Usage:
 
 Config is read from environment variables (or a .env file next to this script):
     AICLI_API_KEY   - your API key (required)
-    AICLI_BASE_URL  - default: https://api.iamhc.cn/v1
+    AICLI_BASE_URL  - default: https://api.hcnsec.cn/v1
     AICLI_MODEL     - default: Qwen3.5-397B-A17B
 
 Commands inside the chat:
@@ -73,7 +73,7 @@ def save_state(state: dict) -> None:
         pass  # non-fatal — worst case the choice just won't persist
 
 
-DEFAULT_BASE_URL = "https://api.iamhc.cn/v1"
+DEFAULT_BASE_URL = "https://api.hcnsec.cn/v1"
 DEFAULT_MODEL = "Qwen3.5-397B-A17B"
 
 HELP_TEXT = (__doc__ or "").strip()
